@@ -1,6 +1,5 @@
 require 'app.rb'
 require 'capybara'
-require ''
 
 #Capybara.app = RockPaperScissorsApp
 
