@@ -1,7 +1,8 @@
 require 'app.rb'
 require 'capybara'
+require ''
 
-Capybara.app = RockPaperScissorsApp
+#Capybara.app = RockPaperScissorsApp
 
 feature "home page welcomes players" do
   scenario "home page loads and says the welcome msg" do
