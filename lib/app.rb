@@ -1,8 +1,13 @@
 require 'sinatra'
+require 'shotgun'
 
 class RockPaperScissors < Sinatra::Base
   get "/" do
-    'Welcome to Rock Paper Scissors game!'
+    erb(:index)
   end
-  run! if app_file == $0
 end
+
+
+
+
+#run! if app_file == $0
